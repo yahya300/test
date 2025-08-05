@@ -1,0 +1,42 @@
+a{
+display: inline;
+font-family: roboto;
+font-style:italic;
+color: rgba(255, 234, 0, 0.752);
+}
+.div{
+    font-size: large;
+    font-family:'Courier New', Courier, monospace
+}
+.hd{
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    text-align: center;
+}
+.hover{
+    font-style: oblique;
+    font-family: arial;
+    font-size: small;
+}
+body{
+    background-color: blue;
+    background: blue;
+}
+.bar{
+    font-size: large;
+    height: 50%;
+    font-family: arial;
+}
+.rd{
+    border-radius: 50%;
+    border:dotted;
+}
+.id{
+    border-radius: 80%;
+    border: dashed;
+}
+.ld{
+    border-radius: 100%;
+    border: dotted;
+}
