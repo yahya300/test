@@ -1,42 +1,68 @@
-a{
-display: inline;
-font-family: roboto;
-font-style:italic;
-color: rgba(255, 234, 0, 0.752);
+* .navbar-brand {
+  color: green !important;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
 }
-.div{
-    font-size: large;
-    font-family:'Courier New', Courier, monospace
+
+i {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
 }
-.hd{
-    font-style: italic;
-    font-size: larger;
-    text-align: center;
-    text-align: center;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.hover{
-    font-style: oblique;
-    font-family: arial;
-    font-size: small;
+
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
 }
-body{
-    background-color: blue;
-    background: blue;
+.total-price span {
+  font-size: 30px;
 }
-.bar{
-    font-size: large;
-    height: 50%;
-    font-family: arial;
+
+.total {
+  font-weight: bold;
 }
-.rd{
-    border-radius: 50%;
-    border:dotted;
+.list-products {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
 }
-.id{
-    border-radius: 80%;
-    border: dashed;
+.card {
+  padding: 5%;
 }
-.ld{
-    border-radius: 100%;
-    border: dotted;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity {
+  font-size: 25px;
+}
+
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.fa-trash-alt {
+  color: #de6b5c;
 }
