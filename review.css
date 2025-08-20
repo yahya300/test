@@ -1,0 +1,91 @@
+.review .box-contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;;
+}
+
+.review .box-contact .box .image{
+    position: absolute;
+    top: 20rem;
+    left: 50%;
+    transform: translateX(400%);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    
+}
+.review .box-contact .box .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.review .box-contact .box p{
+    font-size: 1.2rem;
+    color: #666;
+    margin: 1.5rem 0;
+}
+.review .box-contact .box .user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.box .image{
+    position: absolute;
+    top: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.box .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.box .image p{
+    font-size: 1.2rem;
+    color: #666;
+    margin: 1.5rem 0;
+}
+.box .image{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.box .img{
+    position: absolute;
+    top: 20rem;
+    left: 10%;
+    transform: translateX(-50%);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.box .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.box .img p{
+    font-size: 1.2rem;
+    color: #666;
+    margin: 1.5rem 0;
+}
+.box .img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color:rgb(112, 64, 72);
+    margin-bottom: 2rem;
+}
+body{
+    background-image: url("flow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

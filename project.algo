@@ -1,0 +1,20 @@
+ALGORITHM voyelle
+VAR
+   count:INTEGER 
+   i:INTEGER
+   phrase:STRING
+BEGIN
+write("donner une phrase")
+read(phrase)
+ count<-0
+ FOR i FROM 1 to length(phrase) do
+    if phrase[i] "a" or phrase[i]="e" or phrase[i]="i" or phrase[i]="o" or phrase[i]="u" or phrase[i]="y" then
+        count<-count+1
+        END if
+FOR i FROM 1 TO length(phrase)  DO
+    if phrase[i]=" " then
+        count<-count+=1
+        END if
+END_FOR
+ END_FOR 
+END
